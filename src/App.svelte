@@ -13,7 +13,7 @@
         });
 </script>
 
-<div class="cover">
+<div class="cover" id="cover">
     <h1>ஆத்திசூடி</h1>
     <p>ஔவையாரின் ஆத்திசூடி / Avvaiyar's Aathichudi</p>
 </div>
