@@ -1,0 +1,107 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #18181d;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #6580b1;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #7298da;
+}
+
+.tamil {
+	font-family: "Hind Madurai";
+}
+
+.english {
+	font-family: "Changa";
+}
+
+.cover {
+	background-color: #f0da1a;
+	color: black;
+	font-family: "Hind Madurai";
+	padding: 40px 80px;
+	padding-top: 100px;
+}
+
+.content {
+	padding: 40px 80px;
+	min-height: 100vh;
+}
+
+.cover h1 {
+	margin: 0;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.cover p {
+	margin: 0;
+}
+
+.kural-button {
+	cursor: pointer;
+	margin: 12px 5px;
+	background-color: #f0da1a;
+	color: black;
+	padding: 5px;
+	min-width: 25%;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	font-family: "Hind Madurai";
+}
+
+.kural-button:hover {
+	background-color: #ffea2c;
+}
+
+.footer {
+	padding: 40px 80px;
+	background-color: #f0da1a;
+	color: black;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.footer a {
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+@media (max-width: 500px) {
+	.cover, .content, .footer {
+		padding: 30px 60px;
+	}
+
+	.cover h1 {
+		font-size: 40px;
+	}
+
+	.kural-button {
+		width: calc(100% - 20px);
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+}
